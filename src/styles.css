@@ -1,0 +1,277 @@
+body {
+  background-color: #f1faee;
+  color: #1d3557;
+
+  margin: 0;
+}
+
+a {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e8f6f6;
+}
+
+footer {
+  background-color: #457b9d;
+  padding: 3% 25%;
+}
+
+h3 {
+  color: #457b9d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+hr {
+  border: dotted #a8dadc 6px;
+  border-bottom: none;
+  margin: 0 auto;
+  width: 10%;
+}
+
+nav {
+  background-color: #457b9d;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.btn {
+  background: #a8dadc;
+  background-image: -webkit-linear-gradient(top, #8ecae6, #457b9d);
+  background-image: -moz-linear-gradient(top, #8ecae6, #457b9d);
+  background-image: -ms-linear-gradient(top, #8ecae6, #457b9d);
+  background-image: -o-linear-gradient(top, #8ecae6, #457b9d);
+  background-image: linear-gradient(to bottom, #8ecae6, #457b9d);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #457b9d;
+  background-image: -webkit-linear-gradient(top, #457b9d, #1d3557);
+  background-image: -moz-linear-gradient(top, #457b9d, #1d3557);
+  background-image: -ms-linear-gradient(top, #457b9d, #1d3557);
+  background-image: -o-linear-gradient(top, #457b9d, #1d3557);
+  background-image: linear-gradient(to bottom, #457b9d, #1d3557);
+  color: #ffffff;
+
+  text-decoration: none;
+}
+
+.bottom-cloud,
+.top-cloud {
+  position: absolute;
+}
+
+.bottom-cloud {
+  top: 300px;
+  left: 200px;
+}
+
+.col {
+  color: #1d3557;
+  text-align: center;
+}
+
+.copyright {
+  color: #fff;
+}
+
+.image {
+  border-radius: 100%;
+}
+.image-left,
+.image-right {
+  font-family: "Montserrat", sans-serif;
+  border: solid black;
+}
+
+.image-right {
+  float: right;
+  /* width: 25%; */
+  margin-left: 30px;
+}
+.image-left {
+  float: left;
+  /* width: 25%; */
+  margin-right: 30px;
+}
+
+.link-container {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 5%;
+}
+
+.navbar {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.skill-desc {
+  font-size: 1rem;
+  padding: 0;
+}
+
+.skill-row {
+  margin-top: 10%;
+  text-align: left;
+}
+
+.top-cloud {
+  top: 200px;
+  right: 200px;
+}
+
+/*ID element styles*/
+
+#city {
+  margin-top: -100px;
+}
+
+#profile,
+#greeting,
+#skills,
+#statement {
+  padding: 0 25%;
+}
+
+#profile h2,
+#profile p {
+  margin-top: 5%;
+}
+
+#profile,
+#skills {
+  margin-bottom: 5%;
+}
+
+#contact {
+  padding: 5% 25%;
+}
+
+#greeting {
+  font-family: "Lora", serif;
+  font-size: 5.625em;
+  font-weight: bold;
+  margin-top: 12%;
+}
+
+#icon {
+  border-radius: 50%;
+}
+
+#intro-container {
+  background-color: #457b9d;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+#about .row {
+  padding-top: 5%;
+}
+
+#profile_picture {
+  max-width: 50%;
+  height: auto;
+}
+#statement {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+@media (max-width: 1028px) {
+  footer,
+  #contact {
+    padding: 5% 15%;
+  }
+
+  .bottom-cloud,
+  .top-cloud {
+    display: none;
+  }
+
+  #profile,
+  #greeting,
+  #skills,
+  #statement {
+    padding: 0 15%;
+  }
+}
+
+@media (max-width: 750px) {
+  footer,
+  #contact {
+    padding: 10% 10%;
+  }
+
+  .bottom-cloud,
+  .top-cloud {
+    display: none;
+  }
+
+  #profile,
+  #greeting,
+  #skills,
+  #statement {
+    padding: 0 10%;
+  }
+
+  #profile {
+    padding-top: 10%;
+    text-align: right;
+  }
+
+  .intro {
+    text-align: left;
+  }
+
+  #greeting {
+    padding-top: 10%;
+    font-size: 4rem;
+  }
+
+  #statement {
+    font-size: 2rem;
+    padding-bottom: 40%;
+  }
+
+  .image-left,
+  .image-right {
+    float: none;
+    margin-bottom: 10%;
+  }
+
+  .skill-row {
+    text-align: center;
+  }
+
+  .skillrow h3,
+  .skill-desc {
+    text-align: left;
+  }
+}
