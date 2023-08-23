@@ -41,7 +41,6 @@
   },
   "devDependencies": {
     "gh-pages": "^6.0.0"
-  }
-
-  "homepage": http://jiguba.github.io/jiguba.github.io/
+  },
+  "homepage": "http://jiguba.github.io/jiguba.github.io"
 }
