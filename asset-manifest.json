@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jiguba.github.io/static/css/main.be6c9e67.css",
+    "main.js": "/jiguba.github.io/static/js/main.d811f16c.js",
+    "index.html": "/jiguba.github.io/index.html",
+    "main.be6c9e67.css.map": "/jiguba.github.io/static/css/main.be6c9e67.css.map",
+    "main.d811f16c.js.map": "/jiguba.github.io/static/js/main.d811f16c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be6c9e67.css",
+    "static/js/main.d811f16c.js"
+  ]
+}
