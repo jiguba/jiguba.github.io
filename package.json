@@ -1,6 +1,7 @@
 {
   "name": "simple-portfolio",
   "version": "0.1.0",
+  "homepage": "http://jiguba.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -42,5 +43,4 @@
   "devDependencies": {
     "gh-pages": "^6.0.0"
   },
-  "homepage": "http://jiguba.github.io/jiguba.github.io"
 }
