@@ -6,7 +6,7 @@ export default function About(props) {
                 <img className="image" id="profile_picture" src={props.image} alt =""/>
                 <h2>Hello!</h2>
                 <p>
-                I am recent graduate of the University of Chicago where I studied computer science! 
+                I am a recent graduate of the University of Chicago where I studied computer science! 
                 Prior to my studies, I served in the United States Marine Corps as an electronics 
                 technician. I am currently interested in pursuing a career in full-stack development.
                 </p>
